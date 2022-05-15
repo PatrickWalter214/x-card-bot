@@ -1,0 +1,22 @@
+{
+  "name": "x-card-bot",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickWalter214/x-card-bot.git"
+  },
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/PatrickWalter214/x-card-bot/issues"
+  },
+  "homepage": "https://github.com/PatrickWalter214/x-card-bot#readme",
+  "dependencies": {
+    "discord.js": "^13.7.0"
+  }
+}
