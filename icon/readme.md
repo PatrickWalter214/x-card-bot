@@ -1,0 +1,3 @@
+Contains icons that can be used when creating the bot in the discord development portal.
+
+The sample icon [Close, delete, exit icon](2931151_close_delete_exit_remove_x_icon.png) by Stefan Traubert released under [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) was retrieved from [iconfinder.com](https://www.iconfinder.com/icons/2931151/close_delete_exit_remove_x_bin_recycle_icon).
