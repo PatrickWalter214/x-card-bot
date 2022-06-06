@@ -24,7 +24,7 @@ client.on('messageCreate', message => {
 	client.guilds.fetch().then(guildsCallback);
 });
 
-const joinAndPlayAudio = voice => {
+function joinAndPlayAudio(voice) {
 	if (voice.channelId != null) {
 		const connection = joinVoiceChannel({
 			channelId: voice.channelId,
@@ -40,7 +40,7 @@ const joinAndPlayAudio = voice => {
 		const resource = createAudioResource(join(__dirname, 'audio', audio));
 		player.play(resource);
 	}
-};
+}
 
 // Login to Discord with your client's token
 client.login(token);
