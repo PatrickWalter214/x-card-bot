@@ -1,4 +1,7 @@
 {
     "token": <your Discord bot token>,
-    "audio": "563311__davince21__harp-motif2.mp3"
+    "audio": {
+        "file": "563311__davince21__harp-motif2.mp3",
+        "volume": 100
+    }
 }

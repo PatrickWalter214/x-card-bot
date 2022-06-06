@@ -37,7 +37,8 @@ function joinAndPlayAudio(voice) {
 			connection.destroy();
 		});
 		connection.subscribe(player);
-		const resource = createAudioResource(join(__dirname, 'audio', audio));
+		const resource = createAudioResource(join(__dirname, 'audio', audio.file), { inlineVolume: true });
+		resource.volume.setVolume(audio.volume / 100);
 		player.play(resource);
 	}
 }
